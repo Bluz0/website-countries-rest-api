@@ -14,3 +14,8 @@
 
 <p>You can click the country of your choice and get all the details you want (cocorico !)</p>
 <img src="images/thing4.png">
+
+### Dark Mode Page
+
+<p>Same landing page but with dark mode on</p>
+<img src="images/thing6.png">
