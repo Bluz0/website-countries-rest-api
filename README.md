@@ -24,3 +24,5 @@
 <img src="images/thing9.png">
 <img src="images/thing10.png">
 <img src="images/thing11.png">
+
+<p>Website created in 15 hours to test my speed in managing the DOM JavaScript, managing bugs in conversions of numbers into commas, and api etc.</p>
