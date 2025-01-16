@@ -18,4 +18,9 @@
 ### Dark Mode Page
 
 <p>Same landing page but with dark mode on</p>
-<img src="images/thing6.png">
+<img src="images/thing7.png">
+<p> And of course same functions !</p>
+<img src="images/thing8.png">
+<img src="images/thing9.png">
+<img src="images/thing10.png">
+<img src="images/thing11.png">
