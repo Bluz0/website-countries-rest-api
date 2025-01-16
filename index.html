@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Countries api by Bluz0</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    
+    <nav>
+        <h1 class="title-nav-bar">Where in the world?</h1>
+        <div class="night-button">
+            <img id="night-icon" src="images/night-icon.png" height="20" width="20">
+            <p id="text-mode">Dark Mode</p>
+        </div>
+    </nav>
+
+    <div class="search">
+        <img id="search-icon" src="images/search_icon.png" height="20" width="20">
+        <input id="input-country" type="text" placeholder="Search for a country..." onkeyup="searchCountry()">
+    </div>
+
+    <div class="all-country">
+        
+    </div>
+
+    <div class="filter-region">
+        <p>Filter By Region</p>
+        <img id="open-arrow" src="images/open-arrow.png" height="10" width="10">
+        <br>
+        <div class="proposition" style="display:none;">
+            <ul>
+                <li id="africa">Africa</li>
+                <li id="america">America</li>
+                <li id="asia">Asia</li>
+                <li id="europe">Europe</li>
+                <li id="oceania">Oceania</li>
+            </ul>
+        </div>
+    </div>
+
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script type="module" src="lib/main.js"></script>
+    <script type="module" src="lib/night_mode.js"></script>
+</body>
+</html>
